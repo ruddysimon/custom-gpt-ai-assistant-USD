@@ -1,25 +1,26 @@
 {
   "_version": "1.2",
   "project": {
-    "_id": "654f65125605a20007a61f2d",
-    "name": "custom-gpts-to-website-template",
-    "teamID": "LgnNoz45EV",
-    "devVersion": "654f65122649dbd4c6cb7b62",
-    "platform": "webchat",
+    "_id": "655dac7eaa1981295104f214",
     "type": "chat",
+    "name": "custom-gpts-to-website-template",
+    "image": "",
+    "teamID": "29kM26R4jo",
+    "members": [],
+    "privacy": "private",
+    "platform": "webchat",
+    "_version": 1.2,
+    "linkType": "STRAIGHT",
+    "creatorID": 255532,
+    "updatedBy": 255532,
+    "updatedAt": "2023-11-22T07:26:22.954Z",
+    "apiPrivacy": "private",
+    "devVersion": "655dac7eaa1981295104f215",
     "platformData": {
       "invocationName": "template project general"
     },
-    "members": [],
-    "linkType": "STRAIGHT",
-    "image": "",
     "customThemes": [],
-    "apiPrivacy": "public",
-    "aiAssistSettings": {
-      "aiPlayground": true
-    },
     "knowledgeBase": {
-      "documents": {},
       "settings": {
         "chunkStrategy": {
           "type": "recursive_text_splitter",
@@ -37,17 +38,76 @@
           "temperature": 0.1,
           "system": "You are an FAQ AI chat assistant. Information will be provided to help answer the user's questions. Always summarize your response to be as brief as possible and be extremely concise. Your responses should be fewer than a couple of sentences."
         }
-      }
+      },
+      "documents": {}
     },
-    "_version": 1.2,
-    "updatedAt": "2023-11-11T22:17:44.582Z",
-    "creatorID": 156136,
-    "createdAt": "2023-11-11T11:27:14.000Z",
-    "updatedBy": 156136,
-    "liveVersion": "654ffdc129fb2c0007201cea"
+    "aiAssistSettings": {
+      "aiPlayground": true
+    },
+    "createdAt": "2023-11-22T07:23:42.000Z"
   },
   "version": {
-    "_id": "654f65122649dbd4c6cb7b62",
+    "_id": "655dac7eaa1981295104f215",
+    "name": "Initial Version",
+    "topics": [
+      {
+        "type": "DIAGRAM",
+        "sourceID": "64dbb6696a8fab0013dba194"
+      }
+    ],
+    "domains": [
+      {
+        "id": "cla06iyr900b206pkh8d4ap8n",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64dbb6696a8fab0013dba194"
+        ],
+        "rootDiagramID": "64dbb6696a8fab0013dba194",
+        "updatedAt": "2023-11-22T07:23:42.072Z",
+        "updatedBy": 255532
+      }
+    ],
+    "_version": 4.07,
+    "creatorID": 255532,
+    "projectID": "655dac7eaa1981295104f214",
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "custom-gpts-to-website-template",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "diagramID": "64dbb6696a8fab0013dba194",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "platform": "webchat",
+        "products": {},
+        "extraSlots": [],
+        "interfaces": [],
+        "permissions": [],
+        "extraIntents": [],
+        "usedEventsSet": [],
+        "usedIntentsSet": [],
+        "goToIntentsSet": []
+      },
+      "settings": {},
+      "platform": "webchat"
+    },
     "variables": [
       "sessions",
       "user_id",
@@ -56,6 +116,8 @@
       "locale",
       "threadID"
     ],
+    "components": [],
+    "manualSave": false,
     "platformData": {
       "slots": [],
       "intents": [
@@ -103,32 +165,7 @@
       },
       "platform": "webchat"
     },
-    "_version": 4.07,
-    "name": "Initial Version",
-    "projectID": "654f65125605a20007a61f2d",
-    "manualSave": false,
-    "autoSaveFromRestore": false,
-    "topics": [
-      {
-        "sourceID": "64dbb6696a8fab0013dba194",
-        "type": "DIAGRAM"
-      }
-    ],
-    "components": [],
     "rootDiagramID": "64dbb6696a8fab0013dba194",
-    "domains": [
-      {
-        "id": "cla06iyr900b206pkh8d4ap8n",
-        "name": "Home",
-        "live": true,
-        "topicIDs": [
-          "64dbb6696a8fab0013dba194"
-        ],
-        "rootDiagramID": "64dbb6696a8fab0013dba194",
-        "updatedAt": "2023-11-11T22:15:12.132Z",
-        "updatedBy": 156136
-      }
-    ],
     "canvasTemplates": [
       {
         "id": "sg9zy34i0",
@@ -163,45 +200,8 @@
         ]
       }
     ],
-    "creatorID": 156136,
     "templateDiagramID": "64dbb6696a8fab0013dba195",
-    "prototype": {
-      "type": "chat",
-      "data": {
-        "name": "gpts-test",
-        "locales": [
-          "en-US"
-        ]
-      },
-      "model": {
-        "intents": [],
-        "slots": []
-      },
-      "context": {
-        "stack": [
-          {
-            "diagramID": "64dbb6696a8fab0013dba194",
-            "storage": {},
-            "variables": {}
-          }
-        ],
-        "variables": {}
-      },
-      "surveyorContext": {
-        "slotsMap": {},
-        "extraSlots": [],
-        "extraIntents": [],
-        "usedIntentsSet": [],
-        "platform": "webchat",
-        "goToIntentsSet": [],
-        "products": {},
-        "interfaces": [],
-        "permissions": [],
-        "usedEventsSet": []
-      },
-      "settings": {},
-      "platform": "webchat"
-    }
+    "autoSaveFromRestore": false
   },
   "diagrams": {
     "64dbb6696a8fab0013dba195": {
@@ -209,21 +209,9 @@
       "name": "Template Diagram",
       "type": "TEMPLATE",
       "zoom": 100,
-      "offsetX": 272,
-      "offsetY": 104,
-      "modified": 1699702034,
-      "variables": [],
-      "menuItems": [],
-      "creatorID": 156136,
-      "versionID": "654f65122649dbd4c6cb7b62",
       "nodes": {
         "6438725334aead00076d562e": {
           "type": "start",
-          "nodeID": "6438725334aead00076d562e",
-          "coords": [
-            360,
-            120
-          ],
           "data": {
             "name": "Start",
             "color": "#43494E",
@@ -239,7 +227,12 @@
               "dynamic": []
             },
             "steps": []
-          }
+          },
+          "nodeID": "6438725334aead00076d562e",
+          "coords": [
+            360,
+            120
+          ]
         },
         "6438725382cf9d2273b90589": {
           "type": "block",
@@ -3320,35 +3313,23 @@
           "nodeID": "645d718f83103cca7a3cecd7"
         }
       },
-      "diagramID": "64dbb6696a8fab0013dba195"
+      "offsetX": 272,
+      "offsetY": 104,
+      "modified": 1699702034,
+      "diagramID": "64dbb6696a8fab0013dba195",
+      "versionID": "655dac7eaa1981295104f215",
+      "creatorID": 255532,
+      "variables": [],
+      "menuItems": []
     },
     "64dbb6696a8fab0013dba194": {
       "_id": "64dbb6696a8fab0013dba194",
-      "offsetX": 660.3784532606145,
-      "offsetY": 781.3489202677721,
-      "zoom": 100,
-      "variables": [],
       "name": "ROOT",
-      "versionID": "654f65122649dbd4c6cb7b62",
-      "creatorID": 156136,
-      "modified": 1699702034,
-      "intentStepIDs": [],
       "type": "TOPIC",
-      "menuNodeIDs": [],
-      "menuItems": [
-        {
-          "type": "NODE",
-          "sourceID": "start00000000000000000000"
-        }
-      ],
+      "zoom": 100,
       "nodes": {
         "start00000000000000000000": {
-          "nodeID": "start00000000000000000000",
           "type": "start",
-          "coords": [
-            -125.47306657576806,
-            -726.6861503347151
-          ],
           "data": {
             "name": "Start",
             "color": "#56b365",
@@ -3364,26 +3345,26 @@
                     "points": [
                       {
                         "point": [
-                          -60.86,
+                          -60.85,
                           -704.69
                         ]
                       },
                       {
                         "point": [
-                          -19.62,
+                          -19.59,
                           -704.69
                         ]
                       },
                       {
                         "point": [
-                          -19.62,
-                          -852.74
+                          -19.59,
+                          -852.68
                         ]
                       },
                       {
                         "point": [
-                          21.61,
-                          -852.74
+                          21.66,
+                          -852.68
                         ],
                         "allowedToTop": false
                       }
@@ -3394,13 +3375,18 @@
               "dynamic": []
             },
             "label": "Start"
-          }
+          },
+          "nodeID": "start00000000000000000000",
+          "coords": [
+            -125.47306657576806,
+            -726.6861503347151
+          ]
         },
         "654f652e1b52b67850908433": {
           "type": "api",
           "data": {
             "name": "",
-            "url": "https://YOUR_REPLIT_URL/start",
+            "url": "https://custom-gpts-to-website.ruddysimonpour.repl.co/start",
             "body": [],
             "params": [],
             "method": "GET",
@@ -3519,7 +3505,19 @@
                   {
                     "children": [
                       {
-                        "text": "Hi! I'm Dale, Smith's Solar's sales rep assistant ☀️"
+                        "text": "Hi! I'm your Teaching Assistant for ADS500B. Please don't hesitate to ask any question you have regarding this course. "
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "0m17z38na",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Hello! I'm your Teaching Assistant for ADS500B. Feel free to enquire about any matters relating to this course."
                       }
                     ]
                   }
@@ -3613,26 +3611,26 @@
                     "points": [
                       {
                         "point": [
-                          752.59,
-                          -703.99
+                          752.74,
+                          -628.79
                         ]
                       },
                       {
                         "point": [
                           780.16,
-                          -703.99
+                          -628.79
                         ]
                       },
                       {
                         "point": [
                           780.16,
-                          -858.99
+                          -859.14
                         ]
                       },
                       {
                         "point": [
-                          807.72,
-                          -858.99
+                          807.57,
+                          -859.14
                         ],
                         "allowedToTop": false
                       }
@@ -3658,7 +3656,7 @@
           "type": "api",
           "data": {
             "name": "",
-            "url": "https://YOUR_REPLIT_URL/chat",
+            "url": "https://custom-gpts-to-website.ruddysimonpour.repl.co/chat",
             "body": [
               {
                 "key": "",
@@ -3820,27 +3818,27 @@
                     "points": [
                       {
                         "point": [
-                          811.1,
-                          -522.55
+                          810.95,
+                          -522.68
                         ],
                         "reversed": true
                       },
                       {
                         "point": [
                           781.84,
-                          -522.55
+                          -522.68
                         ]
                       },
                       {
                         "point": [
                           781.84,
-                          -713.88
+                          -638.34
                         ]
                       },
                       {
                         "point": [
-                          752.59,
-                          -713.88
+                          752.74,
+                          -638.34
                         ],
                         "reversed": true,
                         "allowedToTop": false
@@ -4111,87 +4109,6 @@
             -389.9673967649194
           ]
         },
-        "654ffc843dd2035378bf29bb": {
-          "type": "markup_text",
-          "data": {
-            "name": "Block",
-            "scale": 1.34520623961631,
-            "rotate": 0,
-            "content": [
-              {
-                "textAlign": "center",
-                "children": [
-                  {
-                    "text": "Custom GPTs to Website Via Voiceflow Template by Liam Ottley",
-                    "fontWeight": "700"
-                  }
-                ]
-              }
-            ],
-            "overrideWidth": 421.99981059460487,
-            "backgroundColor": {
-              "r": 197,
-              "g": 231,
-              "b": 246,
-              "a": 1
-            }
-          },
-          "nodeID": "654ffc843dd2035378bf29bb",
-          "coords": [
-            507.4109016182502,
-            -1346.5066782026315
-          ]
-        },
-        "654ffcb13dd2035378bf29bd": {
-          "type": "markup_text",
-          "data": {
-            "name": "Block",
-            "scale": 1.0533998918696057,
-            "rotate": 0,
-            "content": [
-              {
-                "textAlign": "center",
-                "children": [
-                  {
-                    "text": "Want to learn how to sell custom GPT solutions to businesses? Join my AI Business Accelerator: ",
-                    "fontWeight": "400"
-                  },
-                  {
-                    "type": "link",
-                    "url": "https://aaaaccelerator.com/",
-                    "children": [
-                      {
-                        "text": "https://aaaaccelerator.com/",
-                        "color": {
-                          "r": 93,
-                          "g": 157,
-                          "b": 245,
-                          "a": 1
-                        },
-                        "underline": true
-                      }
-                    ]
-                  },
-                  {
-                    "text": ""
-                  }
-                ]
-              }
-            ],
-            "overrideWidth": 421.99981059460487,
-            "backgroundColor": {
-              "r": 197,
-              "g": 231,
-              "b": 246,
-              "a": 1
-            }
-          },
-          "nodeID": "654ffcb13dd2035378bf29bd",
-          "coords": [
-            508.42302399428974,
-            -1232.0266301699567
-          ]
-        },
         "654ffd883dd2035378bf29c1": {
           "type": "markup_text",
           "data": {
@@ -4269,7 +4186,21 @@
           ]
         }
       },
-      "diagramID": "64dbb6696a8fab0013dba194"
+      "offsetX": 660.3784532606145,
+      "offsetY": 781.3489202677721,
+      "modified": 1699702034,
+      "diagramID": "64dbb6696a8fab0013dba194",
+      "versionID": "655dac7eaa1981295104f215",
+      "creatorID": 255532,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": [],
+      "intentStepIDs": []
     }
   },
   "variableStates": []
