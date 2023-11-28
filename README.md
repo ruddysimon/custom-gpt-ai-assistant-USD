@@ -9,24 +9,26 @@ Knowledge base files (PDF, DOCX, CSV, etc.).
 Python files (main.py and functions.py).
 
 ## Procedure
-Configuring Replit
+## Configuring Replit
 Upload Knowledge Base:
 - Log into your Replit account.
 - In the left sidebar, upload the knowledge base files (PDF, DOCX, CSV, etc.).
 
 Add OpenAI API Key:
 
-In the lower part of the left sidebar, locate the 'Secrets' section.
-Click on the 'Secret' button.
-Add your OpenAI API key here.
-Setting Up Voiceflow
+- In the lower part of the left sidebar, locate the 'Secrets' section.
+- Click on the 'Secret' button.
+- Add your OpenAI API key here.
+
+## Setting Up Voiceflow
 Access Workspace:
 
 Log into your Voiceflow account.
-Open the desired workspace.
-Upload Voiceflow Template:
+- Open the desired workspace.
 
-In the assistant section on the left side, upload the Voiceflow template from the 'Voiceflow Template' folder.
+Upload Voiceflow Template:
+- In the assistant section on the left side, upload the Voiceflow template from the 'Voiceflow Template' folder.
+
 Linking Replit with Voiceflow
 Run Python File:
 
